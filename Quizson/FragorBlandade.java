@@ -1,7 +1,7 @@
 package Quizson;
 import java.util.ArrayList;
 
-public class fragorBlandade {
+public class FragorBlandade {
     
     public static ArrayList<Fraga> allmanbildningsQuiz(){
         ArrayList<Fraga> list = new ArrayList<>();

@@ -1,7 +1,7 @@
 package Quizson;
 
 public class TidOchPoang {
-    public static void tidPoang (long slutTid, long startTid, long startTidFraga, long totalTidFragaMillis, int antalRatt) {
+    public static void tidPoang (long slutTid, long startTid, long totalTidFragaMillis, int antalRatt) {
 
         long totalTidMillis = slutTid - startTid;
         int totalTidSekunder = (int) (totalTidMillis / 1000);
@@ -17,5 +17,4 @@ public class TidOchPoang {
         System.out.println("Du svarade de " + antalRatt + " frågorna på sammanlagt " + totalTidFragaSekunder + " sekunder vilket leder till " + totalPoäng + " poäng!");
 
     }
-
 }
