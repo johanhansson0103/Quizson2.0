@@ -1,7 +1,7 @@
 package Quizson;
 import java.util.Scanner;
 
-public class quizMetoder{
+public class QuizMetoder{
 
     public static void fragorOchSvar(String [] fragor, String [][] svarsAlternativ, int []rattSvar){
         Scanner scanner = new Scanner(System.in);

@@ -16,21 +16,10 @@ public class QuizMain {
         if (val == 1){
             System.out.println("Du valde blandade kategorier");
             System.out.println();
-            blandadeFragorMetod.startQuiz();
-            Scanner scanner = new Scanner(System.in);
+            BlandadeFragorMetod.startQuiz();
 
-            System.out.println("\nVälkommna till Quizsons frågesport!!!");
-            System.out.println("Spelreglerna är enkla:");
-            System.out.println("Du väljer om du vill ha blandade eller specifika kategorier på frågorna.");
-            System.out.println("Frågorna är från början värda ett visst antal poäng, men de minskar i värde ju längre tiden går.");
-            System.out.println("När tiden tar slut byter spelet automatiskt till nästa fråga.\n");
-
-            int val = visaMenyn.visaMenyn1(scanner);
-
-            if (val == 1) {
-                System.out.println("\nDu valde blandade kategorier");
-                RandomQuiz1.startQuiz(scanner);
-            } else {
+            } else { 
+                Scanner scanner = new Scanner(System.in);
                 System.out.println("\nDu valde specifika kategorier");
                 System.out.println("**********************************");
                 System.out.println("Välj mellan de fyra olika teman: ");
@@ -43,16 +32,17 @@ public class QuizMain {
                 int valet = scanner.nextInt();
 
                 switch (valet) {
-                    case 1 -> Questions.allmänbildningsQuiz();
-                    case 2 -> Questions.seriefilmQuiz();
-                    case 3 -> Questions.vetenskapQuiz();
-                    case 4 -> Questions.sportQuiz();
+                    case 1 -> FragorSpecefika.allmanbildningsQuiz();
+                    case 2 -> FragorSpecefika.seriefilmQuiz();
+                    case 3 -> FragorSpecefika.vetenskapQuiz();
+                    case 4 -> FragorSpecefika.sportQuiz();
+                    
                 }
+                scanner.close();
             }
         
-            scanner.close();
+            
             
         }
     }
-}
 

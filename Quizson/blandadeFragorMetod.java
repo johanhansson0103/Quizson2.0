@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class blandadeFragorMetod {
+public class BlandadeFragorMetod {
     public static void startQuiz(){
         ArrayList<Fraga> allaFragor = new ArrayList<>();
 

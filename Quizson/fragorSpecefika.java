@@ -1,6 +1,6 @@
 package Quizson;
 
-public class fragorSpecefika {
+public class FragorSpecefika {
     
     public static void allmanbildningsQuiz(){
         String [] fragor = {
@@ -31,7 +31,7 @@ public class fragorSpecefika {
 
         int [] rattSvar = {3, 3, 3, 1, 2, 1, 1, 4, 4, 1};
 
-        quizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
+        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
     }
     
 
@@ -64,7 +64,7 @@ public class fragorSpecefika {
 
         int [] rattSvar = {1, 1, 4, 2, 3, 1, 3, 4, 2, 3}; 
 
-        quizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);    
+        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);    
     }
 
     public static void vetenskapQuiz(){
@@ -96,7 +96,7 @@ public class fragorSpecefika {
 
         int [] rattSvar = {1, 3, 4, 1, 1, 2, 3, 4, 1, 1};
 
-        quizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
+        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
     }
 
     public static void seriefilmQuiz(){
@@ -128,6 +128,6 @@ public class fragorSpecefika {
 
         int[] rattSvar = {2, 2, 2, 3, 2, 3, 3, 3, 1, 1};
 
-        quizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
+        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
     }
 }
