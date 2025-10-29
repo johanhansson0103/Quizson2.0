@@ -42,8 +42,8 @@ public class BlandadeFragorMetod {
                 antalRatt++;
                 totalTidFragaMillis += svarsTid;
             } else {
-                System.out.println(f.alternativ[f.rattSvar - 1]);
-                //ÄNDRA
+                System.out.println("Fel svar! Rätt svar var: " + f.alternativ[f.rattSvar - 1]);
+                System.out.println();
             }
         }
         
