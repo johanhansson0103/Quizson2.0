@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class BlandadeFragorMetod {
-    public static void startQuiz(){
+    public static void startQuiz(Scanner scanner){
         ArrayList<Fraga> allaFragor = new ArrayList<>();
 
         allaFragor.addAll(FragorBlandade.allmanbildningsQuiz());
@@ -15,7 +15,7 @@ public class BlandadeFragorMetod {
 
         Collections.shuffle(allaFragor);
 
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
         int antalRatt = 0;
         long startTidFraga;
         long totalTidFragaMillis = 0;
@@ -52,6 +52,6 @@ public class BlandadeFragorMetod {
         System.out.println("Du fick " + antalRatt + " av 10 rätt!");
         TidOchPoang.tidPoang(slutTid, startTid, totalTidFragaMillis, antalRatt);
         
-        scanner.close();
+       // scanner.close();
     }
 }

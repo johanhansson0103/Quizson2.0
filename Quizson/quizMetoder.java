@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class QuizMetoder{
 
-    public static void fragorOchSvar(String [] fragor, String [][] svarsAlternativ, int []rattSvar){
-        Scanner scanner = new Scanner(System.in);
+    public static void fragorOchSvar( String [] fragor, String [][] svarsAlternativ, int []rattSvar){
+        //Scanner scanner = new Scanner(System.in);
         int antalRatt = 0;
         long startTidFraga;
         long totalTidFragaMillis = 0;
@@ -43,6 +43,6 @@ public class QuizMetoder{
         System.out.println("Du fick " + antalRatt + " av " + fragor.length + " rätt!");
         TidOchPoang.tidPoang(slutTid, startTid, totalTidFragaMillis, antalRatt);
         
-        scanner.close();
+        //scanner.close();
     }
 }

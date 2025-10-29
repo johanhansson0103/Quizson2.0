@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class QuizMain {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println();
         System.out.println("!!! Välkommen till Quizsons frågesport !!!");
         System.out.println("Spelreglerna är enkla: ");
@@ -12,6 +13,7 @@ public class QuizMain {
         System.out.println("När tiden tar slut byter spelet automatiskt till nästa fråga.");
 
         int val = BeslutAvQuiz.beslut();
+       
 
         if (val == 1){
             System.out.println("Du valde blandade kategorier");
@@ -19,7 +21,7 @@ public class QuizMain {
             BlandadeFragorMetod.startQuiz();
 
             } else { 
-                Scanner scanner = new Scanner(System.in);
+                
                 System.out.println("\nDu valde specifika kategorier");
                 System.out.println("**********************************");
                 System.out.println("Välj mellan de fyra olika teman: ");

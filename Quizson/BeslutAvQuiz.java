@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class BeslutAvQuiz {
 
-    public static int beslut(){
-        Scanner scanner = new Scanner(System.in);
+    public static int beslut(Scanner scanner){
+        //Scanner scanner = new Scanner(System.in);
 
             System.out.println();
             System.out.println("Dags att välja ett av alternativen: ");
@@ -18,6 +18,7 @@ public class BeslutAvQuiz {
                 System.out.println("Ogiltigt val! Välj igen");
                 val = scanner.nextInt();
             }
-            return val;
+            //return val;
+            return ValideraInput.läsHeltalIInterval(scanner, 1, 2, "Skriv ditt val: ");
     }
 }

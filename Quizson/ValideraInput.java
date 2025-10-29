@@ -16,10 +16,10 @@ public class ValideraInput {
                 if (värde >= min && värde <= max) {
                     giltigt = true;
                 } else {
-                    System.out.println("⚠️ Ogiltigt val! Ange en siffra mellan " + min + " och " + max + ".");
+                    System.out.println("Ogiltigt val! Ange en siffra mellan " + min + " och " + max + ".");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("❌ Felaktig inmatning! Skriv endast siffror.");
+                System.out.println("Felaktig inmatning! Skriv endast siffror.");
                 scanner.nextLine();
             }
         }
