@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class QuizMetoder{
 
     public static void fragorOchSvar( String [] fragor, String [][] svarsAlternativ, int []rattSvar){
-        //Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int antalRatt = 0;
         long startTidFraga;
         long totalTidFragaMillis = 0;
