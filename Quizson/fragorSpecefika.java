@@ -1,8 +1,11 @@
 package Quizson;
 
+import java.util.Scanner;
+import Quizson.QuizMetoder;
+
 public class FragorSpecefika {
     
-    public static void allmanbildningsQuiz(){
+    public static void allmanbildningsQuiz(Scanner scanner){
         String [] fragor = {
             "Vilken kontinent är störst till ytan?",
             "Vilken krydda ingår INTE i klassiska pepparkakor?",
@@ -31,11 +34,11 @@ public class FragorSpecefika {
 
         int [] rattSvar = {3, 3, 3, 1, 2, 1, 1, 4, 4, 1};
 
-        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
+        QuizMetoder.fragorOchSvar(scanner,fragor, svarsAlternativ, rattSvar);
     }
     
 
-    public static void sportQuiz(){
+    public static void sportQuiz(Scanner scanner){
         String [] fragor = {
             "Sveriges förbundskapten Jon Dahl Tommasson blev avskedad den 14 oktober efter en rad svaga resultat. Vem blev hans ersättare?",
             "Vem av de nuvarande förarna i F1 har vunnit flest VM titlar?",
@@ -64,10 +67,10 @@ public class FragorSpecefika {
 
         int [] rattSvar = {1, 1, 4, 2, 3, 1, 3, 4, 2, 3}; 
 
-        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);    
+        QuizMetoder.fragorOchSvar(scanner,fragor, svarsAlternativ, rattSvar);    
     }
 
-    public static void vetenskapQuiz(){
+    public static void vetenskapQuiz(Scanner scanner){
         String [] fragor = {
             "Hur många hjärtan har en spindel?",
             "Vilken av följande metoder är inte ett sätt för växter att få näring?",
@@ -96,10 +99,10 @@ public class FragorSpecefika {
 
         int [] rattSvar = {1, 3, 4, 1, 1, 2, 3, 4, 1, 1};
 
-        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
+        QuizMetoder.fragorOchSvar(scanner, fragor, svarsAlternativ, rattSvar);
     }
 
-    public static void seriefilmQuiz(){
+    public static void seriefilmQuiz(Scanner scanner){
         String[] fragor = {
             "Vem regisserade kultfilmen Pulp Fiction från 1994, en film känd för sin icke-linjära berättarstruktur?",
             "Jon Snow är en nyckelfigur i Game of Thrones. Vilket hus betraktade han sig själv som en del av under större delen av serien?",
@@ -128,6 +131,6 @@ public class FragorSpecefika {
 
         int[] rattSvar = {2, 2, 2, 3, 2, 3, 3, 3, 1, 1};
 
-        QuizMetoder.fragorOchSvar(fragor, svarsAlternativ, rattSvar);
+        QuizMetoder.fragorOchSvar(scanner, fragor, svarsAlternativ, rattSvar);
     }
 }

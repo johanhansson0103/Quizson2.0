@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class QuizMetoder{
 
-    public static void fragorOchSvar(String [] fragor, String [][] svarsAlternativ, int []rattSvar){
-        Scanner scanner = new Scanner(System.in);
+    public static void fragorOchSvar(Scanner scanner,String [] fragor, String [][] svarsAlternativ, int []rattSvar){
+        //Scanner scanner = new Scanner(System.in);
         int antalRatt = 0;
         long startTidFraga;
         long totalTidFragaMillis = 0;
@@ -20,7 +20,8 @@ public class QuizMetoder{
             }
 
             System.out.print("Skriv in ditt svar (1-4): ");
-            int svar = scanner.nextInt();
+            int svar = ValideraInput.läsHeltalIInterval(scanner, 1, 4, "Ditt svar (1-4): ");
+
 
             long slutTidFraga = System.currentTimeMillis();
             svarsTid = slutTidFraga - startTidFraga;

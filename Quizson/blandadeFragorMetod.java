@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class BlandadeFragorMetod {
-    public static void startQuiz(){
+    public static void startQuiz(Scanner scanner){
+        
         ArrayList<Fraga> allaFragor = new ArrayList<>();
 
         allaFragor.addAll(FragorBlandade.allmanbildningsQuiz());
@@ -15,7 +16,7 @@ public class BlandadeFragorMetod {
 
         Collections.shuffle(allaFragor);
 
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
         int antalRatt = 0;
         long startTidFraga;
         long totalTidFragaMillis = 0;
@@ -28,8 +29,8 @@ public class BlandadeFragorMetod {
             System.out.println("Fråga " + (i + 1) + ": ");
             f.visaFraga();
 
-            System.out.print("Ditt svar (1-4): ");
-            int svar = scanner.nextInt();
+            //System.out.print("Ditt svar (1-4): ");
+            int svar = ValideraInput.läsHeltalIInterval(scanner, 1, 4, "Ditt svar (1-4): ");
 
             long slutTidFraga = System.currentTimeMillis();
             svarsTid = slutTidFraga - startTidFraga;

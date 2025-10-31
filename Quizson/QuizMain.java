@@ -1,5 +1,6 @@
 package Quizson;
 import java.util.Scanner;
+//import Quizson.BlandadeFragorMetod;
 
 public class QuizMain {
 
@@ -12,13 +13,13 @@ public class QuizMain {
         System.out.println("Frågorna är från början värda ett visst antal poäng, men de minskar i värde ju längre tiden går.");
         System.out.println("När tiden tar slut byter spelet automatiskt till nästa fråga.");
 
-        int val = BeslutAvQuiz.beslut();
+        int val = BeslutAvQuiz.beslut(scanner);
        
 
         if (val == 1){
             System.out.println("Du valde blandade kategorier");
             System.out.println();
-            BlandadeFragorMetod.startQuiz();
+            BlandadeFragorMetod.startQuiz(scanner);
 
             } else { 
                 
@@ -29,15 +30,15 @@ public class QuizMain {
                 System.out.println("2. Film & serier");
                 System.out.println("3. Vetenskap");
                 System.out.println("4. Sport");
-                System.out.print("Skriv in 1-4: ");
+                //System.out.print("Skriv in 1-4: ");
 
-                int valet = scanner.nextInt();
+                int valet = ValideraInput.läsHeltalIInterval(scanner, 1, 4, "Skriv in 1-4: ");
 
                 switch (valet) {
-                    case 1 -> FragorSpecefika.allmanbildningsQuiz();
-                    case 2 -> FragorSpecefika.seriefilmQuiz();
-                    case 3 -> FragorSpecefika.vetenskapQuiz();
-                    case 4 -> FragorSpecefika.sportQuiz();
+                    case 1 -> FragorSpecefika.allmanbildningsQuiz(scanner);
+                    case 2 -> FragorSpecefika.seriefilmQuiz(scanner);
+                    case 3 -> FragorSpecefika.vetenskapQuiz(scanner);
+                    case 4 -> FragorSpecefika.sportQuiz(scanner);
                     
                 }
                 scanner.close();
