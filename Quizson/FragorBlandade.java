@@ -19,17 +19,17 @@ public class FragorBlandade {
         };
 
             String [][] svarsAlternativ = {
-                {"1. Afrika", "2. Nordamerika", "3. Asien", "4. Sydamerika"},
-                {"1. Ingefära", "2. Kryddnejlika", "3. Peppar", "4. Kanel"},
-                {"1. Kanada", "2. Finland", "3. Sverige", "4. Indonesien"},
-                {"1. Äpple", "2. Päron", "3. Druva", "4. Apelsin"},
-                {"1. 24", "2. 12", "3. 6", "4. 30"},
-                {"1. Leonardo da Vinci", "2. Pablo Picasso", "3. Vincent van Gogh", "4. Claude Monet"},
-                {"1. Korn", "2. Potatis", "3. Råg", "4. Havre"},
-                {"1. En mage", "2. Två magar", "3. Tre magar", "4. Fyra magar"},
-                {"1. Frans", "2. Måns Zelmerlöw", "3. Charlotte Perelli", "4. Loreen"},
-                {"1. 1969", "2. 1972", "3. 1974", "4. 1967"}
-            };
+            {"Afrika", "Nordamerika", "Asien", "Sydamerika"},
+            {"Ingefära", "Kryddnejlika", "Peppar", "Kanel"},
+            {"Kanada", "Finland", "Sverige", "Indonesien"},
+            {"Äpple", "Päron", "Druva", "Apelsin"},
+            {"24", "12", "6", "30"},
+            {"Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"},
+            {"Korn", "Potatis", "Råg", "Havre"},
+            {"En mage", "Två magar", "Tre magar", "Fyra magar"},
+            {"Frans", "Måns Zelmerlöw", "Charlotte Perelli", "Loreen"},
+            {"1969", "1972", "1974", "1967"}
+        };
 
         int [] rattSvar = {3, 3, 3, 1, 2, 1, 1, 4, 4, 1};
 
@@ -56,16 +56,16 @@ public class FragorBlandade {
             };
 
         String [][] svarsAlternativ = { 
-            {"1. Graham Potter", "2. Janne Andersson", "3. Alex Ferguson", "4. Lasse Lagerbäck"},
-            {"1. Lewis Hamilton", "2. Max Verstappen", "3. Fernando Alonso", "4. George Russel"},
-            {"1. Norge", "2. Brasilien", "3. Frankrike", "4. Kina"},
-            {"1. 6,40 m", "2. 6,30 m", "3. 6,17 m", "4. 6,27 m"},
-            {"1. Portugal", "2. Mexiko", "3. Spanien", "4. Argentina"},
-            {"1. Peder Fredricson", "2. Rolf-Göran Bengtsson", "3. Henrik Von Eckermann", "4. Malin Baryard-Johnsson"},
-            {"1. Lag Wrang", "2. Lag Edin", "3. Lag Hasselborg", "4. Lag Norberg"},
-            {"1. Gös", "2. Gädda", "3. Mört", "4. Abborre"},
-            {"1. GameX", "2. Dreamhack", "3. Assembly", "4. GamerCon"},
-            {"1. Henrik Zetterbergn", "2. Peter Forsberg", "3. Mats Sundi", "4. Daniel Alfredsson"}
+            {"Graham Potter", "Janne Andersson", "Alex Ferguson", "Lasse Lagerbäck"},
+            {"Lewis Hamilton", "Max Verstappen", "Fernando Alonso", "George Russel"},
+            {"Norge", "Brasilien", "Frankrike", "Kina"},
+            {"6,40 m", "6,30 m", "6,17 m", "6,27 m"},
+            {"Portugal", "Mexiko", "Spanien", "Argentina"},
+            {"Peder Fredricson", "Rolf-Göran Bengtsson", "Henrik Von Eckermann", "Malin Baryard-Johnsson"},
+            {"Lag Wrang", "Lag Edin", "Lag Hasselborg", "Lag Norberg"},
+            {"Gös", "Gädda", "Mört", "Abborre"},
+            {"GameX", "Dreamhack", "Assembly", "GamerCon"},
+            {"Henrik Zetterbergn", "Peter Forsberg", "Mats Sundi", "Daniel Alfredsson"}
         };
 
         int [] rattSvar = {1, 1, 4, 2, 3, 1, 3, 4, 2, 3}; 
@@ -94,16 +94,16 @@ public class FragorBlandade {
         };
 
         String [][] svarsAlternativ = {
-            {"1. Som människor", "2. Cirkulationssystemet kallas dubbelt system. Varje hjärta ansvarar för fyra ben.", "3. Som bläckfisken som använder sina olika hjärtan för att röra sina olika ben.", "4. De saknar cirkulationssystem. Som andra djur, till exempel maneter."},
-            {"1. Fotosyntes", "2. Köttätande", "3. Sporer", "4. Parasitisk"},
-            {"1. Lungor", "2. Hud", "3. Hjärta", "4. Lever"},
-            {"1. Proton", "2. Neutron", "3. Hackathon", "4. Elektron"},
-            {"1. Albert Einstein", "2. Isaac Newton", "3. Nikola Tesla", "4. Galileo Galilei"},
-            {"1. Näsa", "2. Öra", "3. Haka", "4. Armbåge"},
-            {"1. Syre", "2. Kisel", "3. Kol", "4. Kväve"},
-            {"1. Densitet", "2. Volym", "3. Vikt", "4. Massa"},
-            {"1. Vandringsalbatross", "2. Australisk fladdermus", "3. Kejsarörn", "4. Skatan på min balkong"},
-            {"1. Proxima Centauri", "2. Alfa Centauri 1", "3. Optimus Prime", "4. Alfa Centauri 2"}
+            {"Som människor", "Cirkulationssystemet kallas dubbelt system. Varje hjärta ansvarar för fyra ben.", "Som bläckfisken som använder sina olika hjärtan för att röra sina olika ben.", "De saknar cirkulationssystem. Som andra djur, till exempel maneter."},
+            {"Fotosyntes", "Köttätande", "Sporer", "Parasitisk"},
+            {"Lungor", "Hud", "Hjärta", "Lever"},
+            {"Proton", "Neutron", "Hackathon", "Elektron"},
+            {"Albert Einstein", "Isaac Newton", "Nikola Tesla", "Galileo Galilei"},
+            {"Näsa", "Öra", "Haka", "Armbåge"},
+            {"Syre", "Kisel", "Kol", "Kväve"},
+            {"Densitet", "Volym", "Vikt", "Massa"},
+            {"Vandringsalbatross", "Australisk fladdermus", "Kejsarörn", "Skatan på min balkong"},
+            {"Proxima Centauri", "Alfa Centauri 1", "Optimus Prime", "Alfa Centauri 2"}
         };
 
         int [] rattSvar = {1, 3, 4, 1, 1, 2, 3, 4, 1, 1};
@@ -131,16 +131,16 @@ public class FragorBlandade {
             };
 
         String[][] svarsAlternativ = {
-            {"1. Steven Spielberg", "2. Quentin Tarantino", "3. Martin Scorsese", "4. Coen-bröderna"},
-            {"1. Huset Lannister", "2. Huset Stark", "3. Huset Targaryen", "4. Huset Baratheon"},
-            {"1. Emma Watson", "2. Jennifer Lawrence", "3. Shailene Woodley", "4. Kristen Stewart"},
-            {"1. Z Nation", "2. The Last of Us", "3. The Walking Dead", "4. Fear the Walking Dead"},
-            {"1. Pocahontas", "2. Mulan", "3. Skönheten och Odjuret", "4. Frozen"},
-            {"1. Martin Freeman", "2. Tom Hiddleston", "3. Benedict Cumberbatch", "4. Andrew Scott"},
-            {"1. Svart", "2. Blå", "3. Röd", "4. Grön"},
-            {"1. Hans Zimmer", "2. Ennio Morricone", "3. John Williams", "4. Howard Shore"},
-            {"1. The Dark Passenger", "2. The Inner Demon", "3. The Shadow Killer", "4. Mr. Hyde"},
-            {"1. Hamlin, Hamlin & McGill", "2. Wexler & Associates", "3. Davis & Main", "4. Mesa Verde Law Group"}
+            {"Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Coen-bröderna"},
+            {"Huset Lannister", "Huset Stark", "Huset Targaryen", "Huset Baratheon"},
+            {"Emma Watson", "Jennifer Lawrence", "Shailene Woodley", "Kristen Stewart"},
+            {"Z Nation", "The Last of Us", "The Walking Dead", "Fear the Walking Dead"},
+            {"Pocahontas", "Mulan", "Skönheten och Odjuret", "Frozen"},
+            {"Martin Freeman", "Tom Hiddleston", "Benedict Cumberbatch", "Andrew Scott"},
+            {"Svart", "Blå", "Röd", "Grön"},
+            {"Hans Zimmer", "Ennio Morricone", "John Williams", "Howard Shore"},
+            {"The Dark Passenger", "The Inner Demon", "The Shadow Killer", "Mr. Hyde"},
+            {"Hamlin, Hamlin & McGill", "Wexler & Associates", "Davis & Main", "Mesa Verde Law Group"}
         };
 
         int[] rattSvar = {2, 2, 2, 3, 2, 3, 3, 3, 1, 1};
