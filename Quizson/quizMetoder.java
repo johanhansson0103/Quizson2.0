@@ -24,8 +24,9 @@ public class QuizMetoder{
             long slutTidFraga = System.currentTimeMillis();
             svarsTid = slutTidFraga - startTidFraga;
 
-            if (svarsTid > 60000) {
-                System.out.println("Du tog för lång tid! Max svarstid är 60 sekunder.");
+            if (svarsTid > 30000) {
+                System.out.println("Du tog för lång tid! Max svarstid är 30 sekunder.");
+                System.out.println();
             } else if (svar == rattSvar[i]) {
                 System.out.println("Rätt svar!");
                 System.out.println();

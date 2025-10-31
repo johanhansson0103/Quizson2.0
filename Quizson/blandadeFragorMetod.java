@@ -33,8 +33,9 @@ public class BlandadeFragorMetod {
             long slutTidFraga = System.currentTimeMillis();
             svarsTid = slutTidFraga - startTidFraga;
 
-            if (svarsTid > 60000) {
-                System.out.println("Du tog för lång tid! max svarstid är 60 sekunder.");
+            if (svarsTid > 30000) {
+                System.out.println("Du tog för lång tid! max svarstid är 30 sekunder.");
+                System.out.println();
             } else if (svar == f.rattSvar) {
                 System.out.println("Rätt svar!");
                 System.out.println();
