@@ -16,7 +16,6 @@ public class BlandadeFragorMetod {
 
         Collections.shuffle(allaFragor);
 
-        //Scanner scanner = new Scanner(System.in);
         int antalRatt = 0;
         long startTidFraga;
         long totalTidFragaMillis = 0;
@@ -29,7 +28,6 @@ public class BlandadeFragorMetod {
             System.out.println("Fråga " + (i + 1) + ": ");
             f.visaFraga();
 
-            //System.out.print("Ditt svar (1-4): ");
             int svar = ValideraInput.läsHeltalIInterval(scanner, 1, 4, "Ditt svar (1-4): ");
 
             long slutTidFraga = System.currentTimeMillis();
@@ -53,6 +51,5 @@ public class BlandadeFragorMetod {
         System.out.println("Du fick " + antalRatt + " av 10 rätt!");
         TidOchPoang.tidPoang(slutTid, startTid, totalTidFragaMillis, antalRatt);
         
-       // scanner.close();
     }
 }

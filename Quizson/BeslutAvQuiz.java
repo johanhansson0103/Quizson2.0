@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class BeslutAvQuiz {
 
     public static int beslut(Scanner scanner){
-        //Scanner scanner = new Scanner(System.in);
 
             System.out.println();
             System.out.println("Dags att välja ett av alternativen: ");
@@ -20,6 +19,5 @@ public class BeslutAvQuiz {
                 val = scanner.nextInt();
             }
             return val;
-            //return ValideraInput.läsHeltalIInterval(scanner, 1, 2, "Skriv ditt val: ");
     }
 }

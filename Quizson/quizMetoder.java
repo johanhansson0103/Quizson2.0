@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class QuizMetoder{
 
     public static void fragorOchSvar(Scanner scanner,String [] fragor, String [][] svarsAlternativ, int []rattSvar){
-        //Scanner scanner = new Scanner(System.in);
         int antalRatt = 0;
         long startTidFraga;
         long totalTidFragaMillis = 0;
@@ -19,7 +18,6 @@ public class QuizMetoder{
                 System.out.println(alt);
             }
 
-            System.out.print("Skriv in ditt svar (1-4): ");
             int svar = ValideraInput.läsHeltalIInterval(scanner, 1, 4, "Ditt svar (1-4): ");
 
 
@@ -27,7 +25,7 @@ public class QuizMetoder{
             svarsTid = slutTidFraga - startTidFraga;
 
             if (svarsTid > 60000) {
-                System.out.println("Du tog för lång tid! max svarstid är 60 sekunder.");
+                System.out.println("Du tog för lång tid! Max svarstid är 60 sekunder.");
             } else if (svar == rattSvar[i]) {
                 System.out.println("Rätt svar!");
                 System.out.println();
@@ -43,7 +41,5 @@ public class QuizMetoder{
 
         System.out.println("Du fick " + antalRatt + " av " + fragor.length + " rätt!");
         TidOchPoang.tidPoang(slutTid, startTid, totalTidFragaMillis, antalRatt);
-        
-        //scanner.close();
     }
 }

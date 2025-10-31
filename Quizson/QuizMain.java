@@ -1,6 +1,5 @@
 package Quizson;
 import java.util.Scanner;
-//import Quizson.BlandadeFragorMetod;
 
 public class QuizMain {
 
@@ -11,7 +10,7 @@ public class QuizMain {
         System.out.println("Spelreglerna är enkla: ");
         System.out.println("Du väljer om du vill ha 1. Blandade eller 2. Specefika kategorier på frågorna.");
         System.out.println("Frågorna är från början värda ett visst antal poäng, men de minskar i värde ju längre tiden går.");
-        System.out.println("När tiden tar slut byter spelet automatiskt till nästa fråga.");
+        System.out.println("Du har 60 sekunder på dig per fråga.");
 
         int val = BeslutAvQuiz.beslut(scanner);
        
@@ -30,7 +29,6 @@ public class QuizMain {
                 System.out.println("2. Film & serier");
                 System.out.println("3. Vetenskap");
                 System.out.println("4. Sport");
-                //System.out.print("Skriv in 1-4: ");
 
                 int valet = ValideraInput.läsHeltalIInterval(scanner, 1, 4, "Skriv in 1-4: ");
 
