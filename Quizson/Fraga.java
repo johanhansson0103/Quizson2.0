@@ -9,30 +9,30 @@ import java.util.Collections;
     int rattSvar;
 
         public Fraga(String fraga, String[] alternativ, int rattSvar){
-        this.fraga = fraga;
-        this.alternativ = alternativ;
-        this.rattSvar = rattSvar;
+            this.fraga = fraga;
+            this.alternativ = alternativ;
+            this.rattSvar = rattSvar;
 
-        blandaAlternativ();
-    }
+            blandaAlternativ();
+        }
 
         private void blandaAlternativ(){
-        ArrayList<String> lista = new ArrayList<>();
-        Collections.addAll(lista, alternativ);
+            ArrayList<String> lista = new ArrayList<>();
+            Collections.addAll(lista, alternativ);
 
-        String korrektAlternativ = alternativ[rattSvar - 1];
+            String korrektAlternativ = alternativ[rattSvar - 1];
 
-        Collections.shuffle(lista);
+            Collections.shuffle(lista);
 
-        alternativ = lista.toArray(new String[0]);
+            alternativ = lista.toArray(new String[0]);
 
-        for (int i = 0; i < alternativ.length; i++) {
-            if (alternativ[i].equals(korrektAlternativ)) {
-                rattSvar = i + 1;
-                break;
+            for (int i = 0; i < alternativ.length; i++) {
+                if (alternativ[i].equals(korrektAlternativ)) {
+                    rattSvar = i + 1;
+                    break;
+                }
             }
         }
-    }
 
     public void visaFraga(){
         System.out.println(fraga);

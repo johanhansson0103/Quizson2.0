@@ -19,16 +19,13 @@ public class QuizMetoder{
 
             int svar = ValideraInput.läsHeltalIInterval(scanner, 1, 4, "Ditt svar (1-4): ");
 
-
             long slutTidFraga = System.currentTimeMillis();
             svarsTid = slutTidFraga - startTidFraga;
 
             if (svarsTid > 30000) {
-                System.out.println("Du tog för lång tid! Max svarstid är 30 sekunder.");
-                System.out.println();
+                System.out.println("Du tog för lång tid! Max svarstid är 30 sekunder.\n");
             } else if (svar == f.rattSvar) {
-                System.out.println("Rätt svar!");
-                System.out.println();
+                System.out.println("Rätt svar!\n");
                 antalRatt++;
                 totalTidFragaMillis += svarsTid;
             } else {

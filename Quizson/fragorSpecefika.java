@@ -2,7 +2,6 @@ package Quizson;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import Quizson.QuizMetoder;
 
 public class FragorSpecefika {
     

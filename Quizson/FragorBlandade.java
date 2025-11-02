@@ -18,7 +18,7 @@ public class FragorBlandade {
             "Vilket år landade människan på månen?"
         };
 
-            String [][] svarsAlternativ = {
+        String [][] svarsAlternativ = {
             {"Afrika", "Nordamerika", "Asien", "Sydamerika"},
             {"Ingefära", "Kryddnejlika", "Peppar", "Kanel"},
             {"Kanada", "Finland", "Sverige", "Indonesien"},
@@ -40,20 +40,20 @@ public class FragorBlandade {
         return list;
     }
 
-        public static ArrayList<Fraga> sportQuiz(){
-            ArrayList<Fraga> list = new ArrayList<>();
-            String [] fragor = {
-                "Sveriges förbundskapten Jon Dahl Tommasson blev avskedad den 14 oktober efter en rad svaga resultat. Vem blev hans ersättare?",
-                "Vem av de nuvarande förarna i F1 har vunnit flest VM titlar?",
-                "Den svenska pingisspelaren Truls Möregårdh tog sig till final i OS 2024. Vilket land slog ut honom?",
-                "Höjdhopparen Armand Duplantis satte ett nytt världsrekord i VM 2025. Hur högt hoppa han?",
-                "Tennisturneringen US Open 2025 vann Carlos Alcaraz. Vilket land kommer han ifrån?",
-                "Vilken svensk ryttare tog OS-Silver i hoppning både 2016 och 2021?",
-                "Vilket svenskt damlag tog OS-Guld i curling i Pyeongchang 2018?",
-                "Vilken fiskart är vanligast i svenska insjöar?",
-                "Vad heter det största svenska LAN-evenmanget där tusentals spelare samlas för att spela och tävla?",
-                "Vilken svensk hockeyspelare har gjort flest poäng i NHL genom tiderna?"
-            };
+    public static ArrayList<Fraga> sportQuiz(){
+        ArrayList<Fraga> list = new ArrayList<>();
+        String [] fragor = {
+            "Sveriges förbundskapten Jon Dahl Tommasson blev avskedad den 14 oktober efter en rad svaga resultat. Vem blev hans ersättare?",
+            "Vem av de nuvarande förarna i F1 har vunnit flest VM titlar?",
+            "Den svenska pingisspelaren Truls Möregårdh tog sig till final i OS 2024. Vilket land slog ut honom?",
+            "Höjdhopparen Armand Duplantis satte ett nytt världsrekord i VM 2025. Hur högt hoppa han?",
+            "Tennisturneringen US Open 2025 vann Carlos Alcaraz. Vilket land kommer han ifrån?",
+            "Vilken svensk ryttare tog OS-Silver i hoppning både 2016 och 2021?",
+            "Vilket svenskt damlag tog OS-Guld i curling i Pyeongchang 2018?",
+            "Vilken fiskart är vanligast i svenska insjöar?",
+            "Vad heter det största svenska LAN-evenmanget där tusentals spelare samlas för att spela och tävla?",
+            "Vilken svensk hockeyspelare har gjort flest poäng i NHL genom tiderna?"
+        };
 
         String [][] svarsAlternativ = { 
             {"Graham Potter", "Janne Andersson", "Alex Ferguson", "Lasse Lagerbäck"},
@@ -75,7 +75,6 @@ public class FragorBlandade {
         }
         
         return list;
-
     }
 
     public static ArrayList<Fraga> vetenskapQuiz(){
@@ -115,20 +114,20 @@ public class FragorBlandade {
         return list;
     }
 
-        public static ArrayList<Fraga> seriefilmQuiz(){
-            ArrayList<Fraga> list = new ArrayList<>();
-            String[] fragor = {
-                "Vem regisserade kultfilmen Pulp Fiction från 1994, en film känd för sin icke-linjära berättarstruktur?",
-                "Jon Snow är en nyckelfigur i Game of Thrones. Vilket hus betraktade han sig själv som en del av under större delen av serien?",
-                "Vem spelar huvudrollen Katniss Everdeen i filmserien The Hunger Games?",
-                "Vilken TV-serie, baserad på en serietidning, handlar om en grupp överlevande efter en zombieapokalyps?",
-                "Vilken är den första Disney-filmen där en prinsessa inte behöver räddas av en man?",
-                "Vilken skådespelare spelar huvudrollen som den excentriske detektiven Sherlock Holmes i BBC-serien Sherlock (2010–2017)?",
-                "I Matrix-filmerna, vilken färg har pillret som Neo tar för att upptäcka sanningen om Matrix?",
-                "Vem komponerade den ikoniska musiken till Star Wars-filmerna?",
-                "Vad kallar Dexter Morgan sin inre, mordiska personlighet i TV-serien Dexter?",
-                "Vilken fiktiv advokatby i Albuquerque, där Jimmy McGill (Saul Goodman) börjar sin karriär, spelar en central roll i Better Call Saul?"
-            };
+    public static ArrayList<Fraga> seriefilmQuiz(){
+        ArrayList<Fraga> list = new ArrayList<>();
+        String[] fragor = {
+            "Vem regisserade kultfilmen Pulp Fiction från 1994, en film känd för sin icke-linjära berättarstruktur?",
+            "Jon Snow är en nyckelfigur i Game of Thrones. Vilket hus betraktade han sig själv som en del av under större delen av serien?",
+            "Vem spelar huvudrollen Katniss Everdeen i filmserien The Hunger Games?",
+            "Vilken TV-serie, baserad på en serietidning, handlar om en grupp överlevande efter en zombieapokalyps?",
+            "Vilken är den första Disney-filmen där en prinsessa inte behöver räddas av en man?",
+            "Vilken skådespelare spelar huvudrollen som den excentriske detektiven Sherlock Holmes i BBC-serien Sherlock (2010–2017)?",
+            "I Matrix-filmerna, vilken färg har pillret som Neo tar för att upptäcka sanningen om Matrix?",
+            "Vem komponerade den ikoniska musiken till Star Wars-filmerna?",
+            "Vad kallar Dexter Morgan sin inre, mordiska personlighet i TV-serien Dexter?",
+            "Vilken fiktiv advokatby i Albuquerque, där Jimmy McGill (Saul Goodman) börjar sin karriär, spelar en central roll i Better Call Saul?"
+        };
 
         String[][] svarsAlternativ = {
             {"Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Coen-bröderna"},

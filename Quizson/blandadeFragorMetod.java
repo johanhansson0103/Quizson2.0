@@ -34,11 +34,9 @@ public class BlandadeFragorMetod {
             svarsTid = slutTidFraga - startTidFraga;
 
             if (svarsTid > 30000) {
-                System.out.println("Du tog för lång tid! max svarstid är 30 sekunder.");
-                System.out.println();
+                System.out.println("Du tog för lång tid! max svarstid är 30 sekunder.\n");
             } else if (svar == f.rattSvar) {
-                System.out.println("Rätt svar!");
-                System.out.println();
+                System.out.println("Rätt svar!\n");
                 antalRatt++;
                 totalTidFragaMillis += svarsTid;
             } else {
@@ -51,6 +49,5 @@ public class BlandadeFragorMetod {
 
         System.out.println("Du fick " + antalRatt + " av 10 rätt!");
         TidOchPoang.tidPoang(slutTid, startTid, totalTidFragaMillis, antalRatt);
-        
     }
 }
