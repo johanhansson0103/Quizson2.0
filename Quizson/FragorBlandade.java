@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class FragorBlandade {
     
     public static ArrayList<Fraga> allmanbildningsQuiz(){
-        ArrayList<Fraga> list = new ArrayList<>();
+        ArrayList<Fraga> fragorlista = new ArrayList<>();
         String [] fragor = {
             "Vilken kontinent är störst till ytan?",
             "Vilken krydda ingår INTE i klassiska pepparkakor?",
@@ -34,14 +34,14 @@ public class FragorBlandade {
         int [] rattSvar = {3, 3, 3, 1, 2, 1, 1, 4, 4, 1};
 
         for(int i = 0; i< fragor.length; i++){
-            list.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
+            fragorlista.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
         }
         
-        return list;
+        return fragorlista;
     }
 
     public static ArrayList<Fraga> sportQuiz(){
-        ArrayList<Fraga> list = new ArrayList<>();
+        ArrayList<Fraga> fragorlista = new ArrayList<>();
         String [] fragor = {
             "Sveriges förbundskapten Jon Dahl Tommasson blev avskedad den 14 oktober efter en rad svaga resultat. Vem blev hans ersättare?",
             "Vem av de nuvarande förarna i F1 har vunnit flest VM titlar?",
@@ -71,14 +71,14 @@ public class FragorBlandade {
         int [] rattSvar = {1, 1, 4, 2, 3, 1, 3, 4, 2, 3}; 
 
         for(int i = 0; i< fragor.length; i++){
-            list.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
+            fragorlista.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
         }
         
-        return list;
+        return fragorlista;
     }
 
     public static ArrayList<Fraga> vetenskapQuiz(){
-        ArrayList<Fraga> list = new ArrayList<>();
+        ArrayList<Fraga> fragorlista = new ArrayList<>();
         String [] fragor = {
             "Hur många hjärtan har en spindel?",
             "Vilken av följande metoder är inte ett sätt för växter att få näring?",
@@ -108,14 +108,14 @@ public class FragorBlandade {
         int [] rattSvar = {1, 3, 4, 1, 1, 2, 3, 4, 1, 1};
 
         for(int i = 0; i< fragor.length; i++){
-            list.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
+            fragorlista.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
         }
         
-        return list;
+        return fragorlista;
     }
 
     public static ArrayList<Fraga> seriefilmQuiz(){
-        ArrayList<Fraga> list = new ArrayList<>();
+        ArrayList<Fraga> fragorlista = new ArrayList<>();
         String[] fragor = {
             "Vem regisserade kultfilmen Pulp Fiction från 1994, en film känd för sin icke-linjära berättarstruktur?",
             "Jon Snow är en nyckelfigur i Game of Thrones. Vilket hus betraktade han sig själv som en del av under större delen av serien?",
@@ -145,9 +145,9 @@ public class FragorBlandade {
         int[] rattSvar = {2, 2, 2, 3, 2, 3, 3, 3, 1, 1};
 
         for(int i = 0; i< fragor.length; i++){
-            list.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
+            fragorlista.add(new Fraga(fragor[i], svarsAlternativ[i], rattSvar[i]));
         }
         
-        return list;
+        return fragorlista;
     }
 }
