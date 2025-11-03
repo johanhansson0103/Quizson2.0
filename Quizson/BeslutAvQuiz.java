@@ -12,10 +12,6 @@ public class BeslutAvQuiz {
 
             int val = ValideraInput.läsHeltalIInterval(scanner, 1, 2, "Skriv in ditt val (1 eller 2): ");
 
-            /*while(val != 1 && val != 2){
-                System.out.println("Ogiltigt val! Välj igen");
-                val = scanner.nextInt();
-            }*/
             return val;
     }
 }
